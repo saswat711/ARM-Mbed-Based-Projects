@@ -1,0 +1,4 @@
+create a basic music player.
+Configure analog Inputs for the volume and speed of playing.
+Configure the PWM output for the speaker and RGB LEDs. The speaker will play the music, 
+while the LEDs will reflect the melody of the song by modifying the intensity of each LED.

@@ -1,0 +1,15 @@
+You are part of a team developing a simple machine control system, based on an Mbed-enabled microcontroller. The machine has start and stop buttons. When it is started, a motor is powered. The motor must not start if the safety guard is open. The motor must be immediately switched off if the guard is opened, if the stop button is pressed, or if the operating temperature exceeds a certain value. The motor may be restarted if the stop button is released, and/or when the temperature falls to an acceptable value, if of course the guard is closed.
+
+The following inputs and outputs are needed, with proposed logic values. 
+
+Push button 1: User start button; closure = logic 1.
+Push button 2: Stop; closure = logic 1.
+Switch 1: Machine guard sensor; closed condition = logic 1.
+Switch 2: Temperature sensor; excess temperature = logic 1.
+LEDs are used to indicate machine status: 
+
+LED 1: Motor is ready to run, i.e. guard is closed, temperature is OK. This LED should flash when machine in “not ready” state. 
+LED 2: Motor is running. 
+LED 3: Fault condition – guard opened while running, shows for 0.5 s. 
+LED 4: Fault condition – excess temperature, shows for 0.5 s. 
+You are going to write and simulate (with the Mbed simulator) a program which meets this need.  
