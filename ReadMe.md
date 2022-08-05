@@ -7,8 +7,10 @@ Mbed Simulator & Mbed Studio
 for simulation: ARM MBED (LPC1768)
 
 # ---> Module 3:
-      [Motor Controller] (M3%20Machine%20(Motor)%20Controller)
+      [Motor Controller](M3%20Machine%20(Motor)%20Controller)
+      
 ** In this project it asked as **
+
 You are part of a team developing a simple machine control system, based on an Mbed-enabled microcontroller. The machine has start and stop buttons. When it is started, a motor is powered. The motor must not start if the safety guard is open. The motor must be immediately switched off if the guard is opened, if the stop button is pressed, or if the operating temperature exceeds a certain value. The motor may be restarted if the stop button is released, and/or when the temperature falls to an acceptable value, if of course the guard is closed.
 
 The following inputs and outputs are needed, with proposed logic values. 
@@ -26,14 +28,18 @@ LED 4: Fault condition – excess temperature, shows for 0.5 s.
 You are going to write and simulate (with the Mbed simulator) a program which meets this need.  
 
 ** The flow diagram is as followed **
+
    ![Flow Diagram](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M3%20Machine%20(Motor)%20Controller/Flow%20Diagram.png?raw=true)
 
 **  The simulatied circuit for the same **
+
    ![Simulated Diagram](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M3%20Machine%20(Motor)%20Controller/Simulator%20Circuit.png?raw=true)
 
 # ---> Module 4: 
-      [Barber Shop Wait]  (M4%20Barber%20Shop%20Wait)
+      [Barber Shop Wait](M4%20Barber%20Shop%20Wait)
+      
 ** In this project it asked as **
+
 A waiting area in a barbershop has very limited space. There are three barbers, and two categories of customer: 
 child and adult. Barbers 1 and 2 cut only the hair of adults, while barber 3 cuts only children’s hair. 
 There are 8 waiting spaces. Customers must come alone, except that children must come with one parent; 
@@ -54,16 +60,20 @@ On a school day Barber 3 will be idle! Can you let him give priority to children
 but take on adults if there are no children? 
 
 ** The flow diagram is as followed **
+
    ![Flow Diagram1](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M4%20Barber%20Shop%20Wait/FLow%20Chart%201.png?raw=true)
    ![Flow Diagram2](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M4%20Barber%20Shop%20Wait/FLow%20Chart%202.png?raw=true)
 
 ** The simulatied circuit for the same **
+
    ![Simulated Diagram](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M4%20Barber%20Shop%20Wait/Simulator%20Circuit.png?raw=true)
 
 
 # ---> Module 5:
-      [Heating System Tank Monitoring]  (M5%20Heating%20System%20Tank%20Monitoring)
+      [Heating System Tank Monitoring](M5%20Heating%20System%20Tank%20Monitoring)
+      
 ** In this project it asked as **
+
 You are developing the monitoring (but not control) system for a heating tank in an industrial process. There are two sensors in the tank, one for temperature and the other for level. Four output states must be detected, each triggering a different audible status tone: 
 
 Tank is full, temperature too high (upper third of temperature range) : two-tone  
@@ -74,19 +84,24 @@ Sensors must be tested at least once every two seconds.
 
 Write a program to meet this requirement, testing and demonstrating it on the Mbed simulator. Use potentiometers for tank level and temperature, and the Pwm speaker to generate the audible status signals.
 ** The flow diagram is as followed **
+
    ![Flow Diagram](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M5%20Heating%20System%20Tank%20Monitoring/Flow%20Chart.png?raw=true)
 
 ** The simulatied circuit for the same **
+
    ![Simulated Diagram](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M5%20Heating%20System%20Tank%20Monitoring/Simulator%20Circuit.png?raw=true)
 
 
 # ---> Module 6:
-      [Basic Music Player]   (M6%20Basic%20Music%20Player)
+      [Basic Music Player](M6%20Basic%20Music%20Player)
+      
 ** In this project it is asked to **
+
 create a basic music player.
 Configure analog Inputs for the volume and speed of playing.
 Configure the PWM output for the speaker and RGB LEDs. The speaker will play the music, 
 while the LEDs will reflect the melody of the song by modifying the intensity of each LED.
 
 ** The simulated circuit is **
+
 ![Simulated Circuit](https://github.com/saswat711/ARM-Mbed-Based-Projects/blob/main/M6%20Basic%20Music%20Player/Simulation%20Circuit.png?raw=true)
